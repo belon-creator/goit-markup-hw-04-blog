@@ -91,6 +91,13 @@ body {
   margin-right: 0;
 }
 
+p {
+  margin: 0;
+}
+
+img {
+  margin-bottom: 30px;
+}
 /* button */
 
 .btn-wrapper {
