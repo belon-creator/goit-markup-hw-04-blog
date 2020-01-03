@@ -1,0 +1,108 @@
+:root {
+  --text-color: #626262;
+  --font: "Playfair Display", serif;
+}
+
+body {
+  color: var(--text-color);
+}
+
+.link,
+.tag {
+  text-transform: uppercase;
+  font-family: var(--font);
+}
+
+.link,
+.text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tag {
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu";
+}
+
+.article-header {
+  font-size: 30px;
+}
+.button {
+  color: var(--text-color);
+  font-family: var(--font);
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.main-header {
+  margin: 0 auto;
+  width: 574px;
+  padding-top: 76px;
+  margin-bottom: 102px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.menu-list-item {
+  list-style: none;
+}
+
+.menu-list-item a:hover,
+.menu-list-item a:focus {
+  color: #03a9f4;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* content */
+
+.articles {
+  border: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-item {
+  width: 420px;
+  list-style: none;
+  margin-right: 60px;
+  margin-bottom: 130px;
+}
+
+.article-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+.article-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* button */
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  border: 1px solid #626262;
+  width: 164px;
+  height: 60px;
+}
