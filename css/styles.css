@@ -33,8 +33,13 @@ body {
 }
 
 .article-header {
+  font-family: var(--font);
   font-size: 30px;
+  margin: 0;
+  margin-bottom: 40px;
+  margin-top: 28px;
 }
+
 .button {
   color: var(--text-color);
   font-family: var(--font);
@@ -87,6 +92,7 @@ body {
 
 .articles {
   border: 0;
+  margin: 0;
   margin-bottom: 60px;
   padding: 0;
   display: flex;
@@ -121,7 +127,6 @@ img {
   margin: 0 auto;
   cursor: pointer;
   margin: 0 auto;
-  margin-bottom: 70px;
   border: 1px solid #626262;
   width: 164px;
   height: 60px;
